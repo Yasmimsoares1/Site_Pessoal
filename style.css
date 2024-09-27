@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://img.freepik.com/fotos-gratis/fundo-branco_23-2147730801.jpg");
+    font-family: 'Arial', Courier, monospace; /*alterar fonte*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgb(255, 113, 224);
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.Sobre ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.Sobre li{
+    list-style: none;
+}
