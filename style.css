@@ -5,20 +5,20 @@
 }
 
 body{
-    background-image: url("https://img.freepik.com/fotos-gratis/fundo-branco_23-2147730801.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmgDGQ_J9zHLcsFvA7Q0ABVvqwB5VsN9h2DA&s");
     font-family: 'Arial', Courier, monospace; /*alterar fonte*/
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 nav{
-    background-color: #333;
+    background-color: rgba(255, 129, 144, 0.927);
 }
 
 a{
     font-size: 30px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(18, 17, 17);
 }
 
 a:hover{
