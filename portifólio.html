@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Yasmim de Lima Soares</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: rgba(255, 129, 144, 0.927);
+            padding: 1rem;
+            color: white;
+            text-align: center;
+            border-bottom: 3px solid rgba(255, 129, 144, 0.927);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #f0f0f0;
+        }
+
+        /* Conteúdo principal */
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+            color:rgba(255, 129, 144, 0.927);
+        }
+
+        .video {
+            margin: 2rem auto;
+            width: 80%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 360px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        /* Rodapé */
+        footer {
+            margin-top: 3rem;
+            background-color: rgba(255, 129, 144, 0.927);
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+
+        footer a {
+            color: rgba(235, 235, 235, 0.927);
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho com navegação -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="portifólio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Conteúdo principal -->
+    <main>
+        <h2>Meus Trabalhos</h2>
+        <p>Confira alguns dos meus projetos recentes:</p>
+
+        <!-- Vídeo -->
+        <div class="video">
+            <h3>Trabalho 1</h3>
+            <iframe src="https://www.youtube.com/embed/u-ADCGFAAj4" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Desenvolvido por Yasmim de Lima Soares</p>
+        <p>
+            <a href="#">Instagram</a> | 
+            <a href="#">LinkedIn</a> | 
+            <a href="#">GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>

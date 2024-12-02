@@ -6,32 +6,44 @@
     <title>Yasmim Soares</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        /* Estilos gerais */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #fffafc;
-            color: #333;
+            color: rgb(255, 251, 251);
         }
+
+        /* Cabeçalho */
         header {
             background-color: rgba(255, 129, 144, 0.927);
-            padding: 10px 20px;
+            padding: 1rem; /* Aumentado o padding */
+            color: white;
+            text-align: center; /* Centraliza o conteúdo */
+            border-bottom: 3px solid rgba(255, 129, 144, 0.927); /* Adicionando borda no fundo */
         }
+
         nav ul {
             list-style: none;
             padding: 0;
             margin: 0;
             display: flex;
-            justify-content: space-around;
+            justify-content: center; /* Centraliza os itens de navegação */
+            gap: 1rem; /* Espaço entre os itens */
         }
-        nav ul li {
-            margin: 0 10px;
-        }
+
         nav ul li a {
             text-decoration: none;
-            color: #333;
+            color: white;
             font-weight: bold;
+            transition: color 0.3s; /* Efeito de transição no hover */
         }
+
+        nav ul li a:hover {
+            color: #f0f0f0; /* Efeito de hover para os links */
+        }
+
         .welcome {
             text-align: center;
             margin: 50px 20px;
@@ -48,15 +60,15 @@
             <ul>
                 <li><a href="index.html">Início</a></li><!--LINK-->
                 <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="#">Portfólio</a></li>
+                <li><a href="portifólio.html">Portfólio</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
     <div class="welcome">
         <h1>Bem-vinda ao meu site!</h1>
-        <p>Este espaço foi feito com carinho para compartilhar um pouco de mim e do meu trabalho. </p>
-            <p> Sinta-se à vontade para explorar e aproveitar cada detalhe.</p>
+        <p>Este espaço foi feito com carinho para compartilhar um pouco de mim e do meu trabalho.</p>
+        <p>Sinta-se à vontade para explorar e aproveitar cada detalhe.</p>
     </div>
 </body>
 </html>

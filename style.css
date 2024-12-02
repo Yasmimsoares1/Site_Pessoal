@@ -6,7 +6,7 @@
 
 body{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmgDGQ_J9zHLcsFvA7Q0ABVvqwB5VsN9h2DA&s");
-    font-family: 'Arial', Courier, monospace; /*alterar fonte*/
+    font-family:  'Arial', 'sans-serif'; /*alterar fonte*/
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -18,7 +18,7 @@ nav{
 a{
     font-size: 30px;
     text-decoration: none;
-    color: rgb(18, 17, 17);
+    color: rgb(255, 255, 255);
 }
 
 a:hover{
